@@ -14,4 +14,7 @@ $(document).ready(function () {
   $(".datepicker").datepicker({
     disableWeekends: true,
   });
+
+  // tooltipped
+  $(".tooltipped").tooltipped();
 });
