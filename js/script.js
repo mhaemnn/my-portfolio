@@ -3,4 +3,7 @@ $(document).ready(function () {
 
   // gird/photo
   $(".materialboxed").materialbox();
+
+  // parallax
+  $(".parallax").parallax();
 });
