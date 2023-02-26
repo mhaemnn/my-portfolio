@@ -17,6 +17,17 @@ header {
 .tabs .indicator {
   background-color: aqua;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 @media screen and (max-width: 670px) {
   header {
     min-height: 500px;
