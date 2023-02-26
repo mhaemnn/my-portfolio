@@ -6,4 +6,7 @@ $(document).ready(function () {
 
   // parallax
   $(".parallax").parallax();
+
+  // tabs
+  $(".tabs").tabs();
 });
