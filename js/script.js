@@ -9,4 +9,7 @@ $(document).ready(function () {
 
   // tabs
   $(".tabs").tabs();
+
+  //datepicker
+  $(".datepicker").datepicker();
 });
