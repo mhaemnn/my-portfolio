@@ -11,5 +11,7 @@ $(document).ready(function () {
   $(".tabs").tabs();
 
   //datepicker
-  $(".datepicker").datepicker();
+  $(".datepicker").datepicker({
+    disableWeekends: true,
+  });
 });
