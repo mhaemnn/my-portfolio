@@ -42,6 +42,7 @@ header img {
 }
 header h2 {
   color: black;
+  text-align: justify;
 }
 
 /* section */
@@ -72,6 +73,7 @@ header h2 {
     font-size: 30pt;
   }
   header img {
+    margin-left: -10px;
     width: 200px;
   }
 }
