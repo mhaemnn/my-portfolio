@@ -47,6 +47,9 @@ body {
 
 @media screen and (max-width: 670px) {
   header {
-    min-height: 500px;
+    min-height: 400px;
+  }
+  .container .brand-logo {
+    font-size: 17pt;
   }
 }
