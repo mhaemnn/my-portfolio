@@ -27,12 +27,12 @@ body {
   color: black;
 }
 
-/* header {
-  background: url(/img/1.jpg);
+header {
+  background-color: #f8f8f8;
   background-size: cover;
   background-position: center;
   min-height: 700px;
-} */
+}
 
 .section {
   padding-top: 4vw;
