@@ -1,24 +1,29 @@
 /* fonts local */
 @font-face {
-  font-family: "Roboto-Thin";
-  src: url(/fonts/Roboto-Regular.ttf) format("truetype");
+  font-family: "PlusJakartaSans";
+  src: url(/fonts/PlusJakartaSans-VariableFont_wght.ttf) format("truetype");
 }
 * {
-  font-family: Roboto-Thin;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
   background-color: #f8f8f8;
 }
+
+/* header */
 .nav-wrapper {
   background-color: #f8f8f8 !important;
 }
 .nav-wrapper .judul {
   color: #ff6b3d;
 }
+.nav-wrapper a {
+  color: black;
+}
 .nav-wrapper span {
   margin-left: -8px;
-  color: aqua;
+  color: #6acbf0;
 }
 /* header {
   background: url(/img/1.jpg);
