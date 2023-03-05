@@ -10,7 +10,13 @@
 body {
   background-color: #f8f8f8;
 }
-
+.nav-wrapper .judul {
+  color: #ff6b3d;
+}
+.nav-wrapper span {
+  margin-left: -10px;
+  color: aqua;
+}
 header {
   background: url(/img/1.jpg);
   background-size: cover;
