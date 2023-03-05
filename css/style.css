@@ -15,16 +15,15 @@ body {
 .nav-wrapper {
   background-color: #f8f8f8 !important;
 }
-.nav-wrapper .judul {
-  color: #ff6b3d;
+
+.judul img {
+  margin-top: 15px;
+  width: 200px;
 }
-.right a {
+.nav-wrapper a {
   color: black;
 }
-.nav-wrapper span {
-  margin-left: -2px;
-  color: #6acbf0;
-}
+
 /* header {
   background: url(/img/1.jpg);
   background-size: cover;
