@@ -7,7 +7,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-body {
+* {
   background-color: #f8f8f8;
 }
 
@@ -21,7 +21,6 @@ body {
   width: 200px;
 }
 .nav-wrapper a {
-  background-color: #f8f8f8;
   color: black;
 }
 
