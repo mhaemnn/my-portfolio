@@ -7,7 +7,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-* {
+body {
   background-color: #f8f8f8;
 }
 
@@ -17,10 +17,13 @@
 }
 
 .judul img {
-  margin-top: 15px;
-  width: 200px;
+  margin-top: 12px;
+  width: 250px;
 }
+
 .nav-wrapper a {
+  font-size: 11pt;
+  margin-top: 5px;
   color: black;
 }
 
@@ -48,10 +51,8 @@
   header {
     min-height: 400px;
   }
-  .container .brand-logo {
-    font-size: 17pt;
-  }
-  .nav-wrapper span {
-    margin-left: -0px;
+  .judul img {
+    margin-top: 13px;
+    width: 200px;
   }
 }
