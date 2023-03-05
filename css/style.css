@@ -18,11 +18,11 @@ body {
 .nav-wrapper .judul {
   color: #ff6b3d;
 }
-.nav-wrapper a {
+.right a {
   color: black;
 }
-.nav-wrapper a:hover {
-  transform: none;
+.right a:hover {
+  text-decoration-color: #ff6b3d !important;
 }
 .nav-wrapper span {
   margin-left: -2px;
