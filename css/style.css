@@ -21,9 +21,6 @@ body {
 .right a {
   color: black;
 }
-.right a:hover {
-  text-decoration-color: #ff6b3d !important;
-}
 .nav-wrapper span {
   margin-left: -2px;
   color: #6acbf0;
