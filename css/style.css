@@ -33,8 +33,9 @@ header {
   background-position: center;
   min-height: 500px;
 }
-div .container {
-  margin-top: -300px;
+div h2,
+img {
+  margin-top: 200px;
 }
 header img {
   width: 350px;
