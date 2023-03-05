@@ -31,7 +31,13 @@ header {
   background-color: #f8f8f8;
   background-size: cover;
   background-position: center;
-  min-height: 700px;
+  min-height: 500px;
+}
+div .container {
+  margin-top: -300px;
+}
+header img {
+  width: 350px;
 }
 
 .section {
