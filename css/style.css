@@ -21,8 +21,11 @@ body {
 .nav-wrapper a {
   color: black;
 }
+.nav-wrapper a:hover {
+  transform: none;
+}
 .nav-wrapper span {
-  margin-left: -8px;
+  margin-left: -2px;
   color: #6acbf0;
 }
 /* header {
@@ -51,5 +54,8 @@ body {
   }
   .container .brand-logo {
     font-size: 17pt;
+  }
+  .nav-wrapper span {
+    margin-left: -0px;
   }
 }
