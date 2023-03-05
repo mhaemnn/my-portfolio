@@ -33,23 +33,29 @@ header {
   background-position: center;
   min-height: 500px;
 }
-div h2,
-img {
-  margin-top: 200px;
+header .row {
+  margin-top: 160px;
 }
 header img {
-  width: 350px;
+  margin-top: -90px;
+  width: 380px;
+}
+header h2 {
+  color: black;
 }
 
+/* section */
 .section {
   padding-top: 4vw;
   padding-bottom: 4vw;
 }
 
+/* parallax */
 .parallax-container {
   height: 400px;
 }
 
+/* tabs */
 .tabs .indicator {
   background-color: aqua;
 }
@@ -60,6 +66,10 @@ header img {
   }
   .judul img {
     margin-top: 13px;
+    width: 200px;
+  }
+  header img {
+    margin-top: -90px;
     width: 200px;
   }
 }
