@@ -68,6 +68,9 @@ header h2 {
     margin-top: 13px;
     width: 200px;
   }
+  header h2 {
+    font-size: 30pt;
+  }
   header img {
     margin-top: -90px;
     width: 200px;
