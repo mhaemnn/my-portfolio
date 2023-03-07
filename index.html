@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Import font awesome -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous" /> -->
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
@@ -33,71 +26,73 @@
   <body>
     <!-- navbar -->
     <header>
-      <nav class="nav-wrapper z-depth-0">
+      <div class="navbar-fix">
         <div class="container">
-          <a href="#" class="brand-logo judul">
-            <img
-              src="/src/img/logo-jakarta-sans-3.png"
-              alt="digitalkcreative" />
-          </a>
-          <a href="#" class="sidenav-trigger" data-target="mobile-phone">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#layanan">Layanan</a></li>
-            <li><a href="#tentangkami">Tentang kami</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#kontak">Kontak & Karir</a></li>
-          </ul>
+          <nav class="nav-wrapper z-depth-0">
+            <a href="#" class="brand-logo judul">
+              <img
+                src="/src/img/logo-jakarta-sans-3.png"
+                alt="digitalkcreative" />
+            </a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-phone">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#client">Clients</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#porfolio">Portfolio</a></li>
+            </ul>
 
-          <!-- mobile-phone -->
-          <ul class="sidenav grey-darken-2" id="mobile-phone">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#layanan">Layanan</a></li>
-            <li><a href="#tentangkami">Tentang kami</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#kontak">Kontak & Karir</a></li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="container">
-        <div class="slider">
-          <ul class="slides">
-            <li>
-              <img src="src/img/slider1.jpg" />
-              <!-- random image -->
-              <div class="caption center-align">
-                <h3>This is our big Tagline!</h3>
-                <h5 class="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
-              </div>
-            </li>
-            <li>
-              <img src="src/img/slider2.jpg" />
-              <!-- random image -->
-              <div class="caption left-align">
-                <h3>Left Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
-              </div>
-            </li>
-            <li>
-              <img src="src/img/slider3.jpg" />
-              <!-- random image -->
-              <div class="caption right-align">
-                <h3>Right Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">
-                  Here's our small slogan.
-                </h5>
-              </div>
-            </li>
-          </ul>
+            <!-- mobile-phone -->
+            <ul class="sidenav grey-darken-2" id="mobile-phone">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#client">Clients</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#porfolio">Portfolio</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
+
+      <!-- slider -->
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="src/img/slider1.jpg" />
+            <!-- random image -->
+            <div class="caption center-align">
+              <h3>This is our big Tagline!</h3>
+              <h5 class="light grey-text text-lighten-3">
+                Here's our small slogan.
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="src/img/slider2.jpg" />
+            <!-- random image -->
+            <div class="caption left-align">
+              <h3>Left Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">
+                Here's our small slogan.
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="src/img/slider3.jpg" />
+            <!-- random image -->
+            <div class="caption right-align">
+              <h3>Right Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">
+                Here's our small slogan.
+              </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- slider -->
     </header>
 
     <!-- photo/gird -->
@@ -211,6 +206,15 @@
         </div>
       </div>
     </section>
+
+    <!-- parallax -->
+    <div class="container">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="src/img/3.jpg" alt="" class="responsive-img" />
+        </div>
+      </div>
+    </div>
 
     <!-- form -->
     <section class="section container" id="contact">
