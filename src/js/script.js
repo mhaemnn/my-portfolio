@@ -2,9 +2,6 @@ $(document).ready(function () {
   // tabs navbar
   $(".tabs").tabs();
 
-  // slider
-  $(".slider").slider();
-
   // gird/photo
   $(".materialboxed").materialbox();
 
@@ -20,7 +17,12 @@ $(document).ready(function () {
   $(".tooltipped").tooltipped();
 });
 
-const slider = document.querySelectorAll(".slider");
-M.Slider.init(slider, {
-  indicator: false,
+// slider
+const slider = $(".slider");
+$(document).ready(function () {
+  slider.slider({
+    indicators: false,
+    duration: 1000,
+    interval: 2000,
+  });
 });
