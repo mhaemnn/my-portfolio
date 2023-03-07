@@ -33,16 +33,6 @@ header {
   background-position: center;
   min-height: 500px;
 }
-/* header .row {
-  margin-top: 160px;
-} */
-header img {
-  width: 380px;
-}
-header h2 {
-  margin-left: 20px;
-  color: black;
-}
 
 /* section */
 .section {
