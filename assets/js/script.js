@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  // sidenav
+  $(".sidenav").sidenav();
+
   // tabs navbar
   $(".tabs").tabs();
 
