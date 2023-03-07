@@ -22,6 +22,7 @@ const slider = $(".slider");
 $(document).ready(function () {
   slider.slider({
     indicators: false,
+    height: 500,
     duration: 1000,
     interval: 2000,
   });
