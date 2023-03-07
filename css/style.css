@@ -40,6 +40,7 @@ header img {
   width: 380px;
 }
 header h2 {
+  margin-left: 20px;
   color: black;
 }
 
@@ -71,6 +72,7 @@ header h2 {
     margin-left: 50px;
   }
   header h2 {
+    margin-left: 0;
     font-size: 28pt;
   }
   header img {
