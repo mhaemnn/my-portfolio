@@ -1,6 +1,9 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
 
+  // slider
+  $(".slider").slider();
+
   // gird/photo
   $(".materialboxed").materialbox();
 
