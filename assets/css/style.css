@@ -17,6 +17,10 @@ h5 {
 #pertama {
   margin-top: 70px;
 }
+
+#terakhir {
+  margin-bottom: 150px;
+}
 .section img {
   width: 230px;
   border-radius: 3px;
