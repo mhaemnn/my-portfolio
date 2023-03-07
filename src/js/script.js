@@ -1,6 +1,4 @@
 $(document).ready(function () {
-  $(".sidenav").sidenav();
-
   // tabs navbar
   $(".tabs").tabs();
 
@@ -20,4 +18,9 @@ $(document).ready(function () {
 
   // tooltipped
   $(".tooltipped").tooltipped();
+});
+
+const slider = document.querySelectorAll(".slider");
+M.Slider.init(slider, {
+  indicator: false,
 });
