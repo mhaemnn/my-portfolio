@@ -1,6 +1,9 @@
 $(document).ready(function () {
   $(".sidenav").sidenav();
 
+  // tabs navbar
+  $(".tabs").tabs();
+
   // slider
   $(".slider").slider();
 
@@ -9,9 +12,6 @@ $(document).ready(function () {
 
   // parallax
   $(".parallax").parallax();
-
-  // tabs
-  $(".tabs").tabs();
 
   //datepicker
   $(".datepicker").datepicker({
