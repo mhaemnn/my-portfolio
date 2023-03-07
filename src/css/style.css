@@ -50,6 +50,9 @@ header {
   background-color: aqua;
 }
 
+/* --------------------------------------------
+  MOBILE VERSION
+----------------------------------------------- */
 @media screen and (max-width: 670px) {
   header {
     min-height: 400px;
