@@ -2,11 +2,11 @@ $(document).ready(function () {
   // sidenav
   $(".sidenav").sidenav();
 
-  // tabs navbar
-  $(".tabs").tabs();
-
   // gird/photo
   $(".materialboxed").materialbox();
+
+  // tabs navbar
+  $(".tabs").tabs();
 
   // parallax
   $(".parallax").parallax();
