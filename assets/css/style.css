@@ -12,9 +12,6 @@
 .white {
   box-shadow: 1px 1px 3px #0d47a1;
 }
-.navbar-fixed .link:active {
-  background-color: white !important;
-}
 
 /* slider */
 .slider h3,
