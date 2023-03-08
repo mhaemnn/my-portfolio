@@ -9,6 +9,10 @@
 * {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+.white {
+  box-shadow: 1px 1px 3px #0d47a1;
+}
 .slider h3,
 h5 {
   text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
