@@ -1,6 +1,4 @@
-/* --------------------------------------------
-  MIAN STYLING
------------------------------------------------ */
+/* font face */
 @font-face {
   font-family: "PlusJakartaSans";
   src: url(/fonts/PlusJakartaSans-VariableFont_wght.ttf) format("truetype");
@@ -10,18 +8,21 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+/* navbar */
 .white {
   box-shadow: 1px 1px 3px #0d47a1;
 }
+
+/* slider */
 .slider h3,
 h5 {
   text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
 }
 
+/* pelayanan */
 #pertama {
   margin-top: 70px;
 }
-
 #terakhir {
   margin-bottom: 150px;
 }
@@ -36,7 +37,10 @@ h5 {
   background-image: linear-gradient(#fff 60%, #265aab 55%);
 }
 
-/* layanan kami */
+/* tentang kami */
+div .tentang {
+  margin-top: -36px;
+}
 .card-panel {
   margin-top: 20px;
 }
@@ -65,11 +69,7 @@ div .flow-text {
   margin-top: 35px;
   background-image: linear-gradient(#fff 60%, #265aab 80%);
 }
-div .text {
-  margin-top: 5px;
-  color: #265aab;
-  text-shadow: 1px 1px 3px #fff;
-}
+
 /* --------------------------------------------
   MOBILE VERSION
 ----------------------------------------------- */
@@ -78,11 +78,7 @@ div .text {
     padding-top: 4vw;
     padding-bottom: 4vw;
   }
-  div .flow-text {
-    font-size: 10pt;
-    color: #000;
-    display: inline-block;
-    margin-top: 35px;
-    background-image: linear-gradient(#fff 60%, #265aab 50%);
+  section #tentang {
+    margin-top: -1000px !important;
   }
 }
