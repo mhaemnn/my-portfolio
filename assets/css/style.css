@@ -36,7 +36,10 @@ h5 {
   background-image: linear-gradient(#fff 60%, #265aab 55%);
 }
 
+/* layanan kami */
+
 .tabs .tab a {
+  font-weight: bold;
   color: #000;
 }
 
