@@ -70,6 +70,11 @@ div .flow-text {
   background-image: linear-gradient(#fff 60%, #265aab 80%);
 }
 
+/* portfolio */
+.parallax-container img {
+  width: 100px;
+}
+
 /* --------------------------------------------
   MOBILE VERSION
 ----------------------------------------------- */
