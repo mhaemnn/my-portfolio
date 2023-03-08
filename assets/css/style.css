@@ -58,12 +58,12 @@ h5 {
   background-color: #0d47a1;
 }
 div .flow-text {
-  font-size: 12pt;
-  font-weight: bold;
+  font-size: 13pt;
+  font-weight: unset;
   color: #000;
   display: inline-block;
   margin-top: 35px;
-  background-image: linear-gradient(#fff 60%, #265aab 50%);
+  background-image: linear-gradient(#fff 60%, #265aab 80%);
 }
 div .text {
   margin-top: 5px;
