@@ -48,6 +48,13 @@ h5 {
 input[type="checkbox"] + span::before {
   color: white;
 }
+#kontak label {
+  color: white;
+}
+[type="checkbox"].filled-in:checked + span:not(.lever)::before {
+  border-color: #fff;
+  background-color: #fff;
+}
 
 /* --------------------------------------------
   MOBILE VERSION
