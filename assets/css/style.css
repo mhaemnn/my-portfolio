@@ -43,6 +43,7 @@ h5 {
 }
 #kontak p {
   color: white;
+  text-align: justify;
 }
 .material-icons.prefix,
 input[type="checkbox"] + span::before {
