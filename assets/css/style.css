@@ -15,7 +15,6 @@
   background-color: transparent !important;
 }
 
-
 /* slider */
 .slider h3,
 h5 {
@@ -79,6 +78,6 @@ input[type="checkbox"] + span::before {
     margin-top: -1000px !important;
   }
   .parallax-container {
-    height: 600px;
+    height: 800px;
   }
 }
