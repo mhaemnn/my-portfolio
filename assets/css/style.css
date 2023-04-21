@@ -1,83 +1,131 @@
-/* font face */
-@font-face {
-  font-family: "PlusJakartaSans";
-  src: url(/fonts/PlusJakartaSans-VariableFont_wght.ttf) format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
 * {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Signika", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.header {
+  width: 100%;
+  background-color: #eeeeee;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header .contanier {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+.header .logo {
+  font-size: 22px;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+.header .contanier .nav-links {
+  display: flex;
+  align-items: center;
+}
+.header .contanier .nav-links a {
+  color: #2c2c2c;
+  text-decoration: none;
+  margin-left: 30px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+.header .contanier .nav-links a:hover,
+.header .contanier .nav-links a.active {
+  color: #04aa6d;
+}
+.header .contanier .nav-links .soc-links {
+  margin-left: 40px;
+}
+.header .contanier .nav-links .soc-links a {
+  font-size: 22px;
+  margin-left: 15px;
 }
 
-/* navbar */
-.white {
-  box-shadow: 1px 1px 3px #0d47a1;
-}
-.nav-wrapper a {
-  background-color: transparent !important;
+#btn-menu {
+  display: none;
 }
 
-/* slider */
-.slider h3,
-h5 {
-  text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
+svg {
+  margin-bottom: -2.3px;
+  margin-left: 5px;
 }
 
-/* pelayanan */
-#pertama {
-  margin-top: 70px;
-}
-
-.section img {
-  width: 230px;
-  border-radius: 3px;
-}
-.section h5 {
-  color: black;
-  font-weight: unset;
-  display: inline;
-  background-image: linear-gradient(#fff 60%, #265aab 55%);
-}
-
-/* contact */
-.section h4 {
-  color: white;
-  font-weight: unset;
-  display: inline;
-  background-image: linear-gradient(#005e9b 60%, #0d47a1 55%);
-}
-#kontak p {
-  color: white;
-  text-align: justify;
-}
-.material-icons.prefix,
-input[type="checkbox"] + span::before {
-  color: white;
-}
-#kontak label {
-  color: white;
-}
-[type="checkbox"].filled-in:checked + span:not(.lever)::before {
-  border-color: #fff;
-  background-color: #fff;
-}
-
-/* --------------------------------------------
-  MOBILE VERSION
------------------------------------------------ */
-@media screen and (max-width: 670px) {
-  #pelayanan p {
-    padding: 1rem;
-    border-radius: 0.25rem;
-    background-color: #fff;
-    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+/* ----------------------
+  version mobile
+------------------------- */
+@media (max-width: 1000px) {
+  .header .contanier {
+    width: 100%;
+    padding: 0 20px;
   }
-  .section {
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+
+  .header .contanier .nav-links a {
+    font-size: 14px;
+    margin-left: 20px;
   }
-  section #tentang {
-    margin-top: -1000px !important;
+  .header .contanier .nav-links .soc-links {
+    margin-left: 30px;
   }
-  .parallax-container {
-    height: 800px;
+}
+@media (max-width: 750px) {
+  #btn-menu {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 22px;
+    color: #04aa6d;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+  }
+  .header .contanier .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #444;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top: 1px solid #d4d4d4a7;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.3s;
+  }
+  .header .contanier .nav-links.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .contanier .nav-links a {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #d4d4d4a7;
+  }
+  .header .contanier .nav-links .soc-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0 10px;
+  }
+  .header .contanier .nav-links .soc-links a {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+    border-bottom: none;
   }
 }

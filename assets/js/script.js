@@ -1,36 +1,18 @@
-$(document).ready(function () {
-  //datepicker
-  $(".datepicker").datepicker({
-    disableWeekends: true,
-  });
+let btnMenu = document.getElementById("btn-menu");
+let menu = document.getElementById("menu");
 
-  // tooltipped
-  $(".tooltipped").tooltipped();
-});
+btnMenu.onclick = () => {
+  btnMenu.classList.toggle("fa-times");
+  menu.classList.toggle("active");
+};
+toggleSwitch.addEventListener("change", switchTheme, false);
 
-// sidenav
-const sidenav = document.querySelectorAll(".sidenav");
-M.Sidenav.init(sidenav);
-
-// slider
-const slider = $(".slider");
-$(document).ready(function () {
-  slider.slider({
-    indicators: false,
-    height: 500,
-    duration: 1000,
-    interval: 2000,
-  });
-});
-
-// materialboxe /photo-gird
-const materialbox = document.querySelectorAll(".materialboxed");
-M.Materialbox.init(materialbox);
-
-// tabs
-const tabs = document.querySelectorAll(".tabs");
-M.Tabs.init(tabs);
-
-// parallax
-const parallax = document.querySelectorAll(".parallax");
-M.Parallax.init(parallax);
+// addEvenLisner
+function toggleForm() {
+  var form = document.getElementById("form");
+  if (form.style.display === "none") {
+    form.style.display = "block";
+  } else {
+    form.style.display = "none";
+  }
+}
