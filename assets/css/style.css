@@ -41,9 +41,26 @@ body {
   text-transform: capitalize;
   transition: 0.3s;
 }
-.header .contanier .nav-links a:hover,
-.header .contanier .nav-links a.active {
-  color: #04aa6d;
+.header .contanier .nav-links a {
+  display: inline-block;
+  position: relative;
+  color: #2c2c2c;
+}
+.header .contanier .nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #04aa6d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.header .contanier .nav-links a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .header .contanier .nav-links .soc-links {
   margin-left: 40px;
